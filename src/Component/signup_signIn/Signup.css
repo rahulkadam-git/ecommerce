@@ -1,0 +1,82 @@
+.signup-form section {
+  margin: 25px;
+  width: 300px;
+  padding: 25px 50px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+.signup-form {
+  display: flex;
+  margin: 50px 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.name-input,
+.phone-input,
+.email-input,
+.password-input,
+.submit-input {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.name-label,
+.phone-label,
+.email-label,
+.password-label {
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px 0;
+}
+
+.email-input,
+.password-input,
+.phone-input input {
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.name-input input {
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.phone-input input:focus {
+  box-shadow: #f1c44a 0px 10px 36px 0px, #f1c44a 0px 0px 0px 1px;
+}
+
+.name-input input:focus {
+  box-shadow: #f1c44a 0px 10px 36px 0px, #f1c44a 0px 0px 0px 1px;
+}
+.password-input input:focus {
+  box-shadow: #f1c44a 0px 10px 36px 0px, #f1c44a 0px 0px 0px 1px;
+}
+
+.email-input input:focus {
+  box-shadow: #f1c44a 0px 10px 36px 0px, #f1c44a 0px 0px 0px 1px;
+}
+
+.submit-input button {
+  border: none;
+  padding: 10px 5px;
+  font-size: medium;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: #f1c44a;
+  margin-top: 10px;
+}
+.create-account {
+  text-align: center;
+  color: cadetblue;
+}
+
+.create-account button {
+  width: 100%;
+  padding: 10px 10px;
+  cursor: pointer;
+}

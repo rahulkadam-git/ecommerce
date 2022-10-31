@@ -1,0 +1,144 @@
+.cart-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.cart {
+  width: 60%;
+  margin: 10px;
+}
+.buynow-container {
+  width: 20%;
+}
+.cart-section div form {
+  padding: 20px;
+}
+
+.price--line-through {
+  background-color: transparent;
+  background-image: gradient(
+    linear,
+    19.1% -7.9%,
+    81% 107.9%,
+    color-stop(0, transparent),
+    color-stop(0.48, transparent),
+    color-stop(0.5, #000),
+    color-stop(0.52, transparent),
+    color-stop(1, transparent)
+  );
+  background-image: repeating-linear-gradient(
+    163deg,
+    transparent 0%,
+    transparent 48%,
+    #000 50%,
+    transparent 52%,
+    transparent 100%
+  );
+}
+
+.product-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+  padding-left: 10px;
+}
+
+.cart-product {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.cart-product .product-title {
+  width: 100%;
+  text-align: start;
+}
+
+.product-details {
+  width: 500px;
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+}
+
+.product-details .product-title {
+  width: 100%;
+
+  padding-left: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.left-title {
+  display: flex;
+}
+
+.delete-all {
+  width: 150px;
+  padding-left: 10px;
+}
+.product-titles {
+  padding-left: 50px;
+}
+
+.delete-btn {
+  padding-right: 10px;
+}
+.subtotal {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.subtotal-title {
+  width: 100%;
+  text-align: end;
+}
+
+.totalCost {
+  padding-left: 10px;
+  text-align: end;
+}
+
+.down-tab {
+  display: flex;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.down-tab .quantity {
+  width: 200px;
+}
+
+.quantity select {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  border: none;
+}
+.down-tab button {
+  background-color: white;
+  border: none;
+}
+
+.down-tab .saveforlater-item {
+  width: 250px;
+}
+
+.delivery-time {
+  color: green;
+}
+.delivery-time,
+.shipping {
+  font-weight: 500;
+  font-size: medium;
+}

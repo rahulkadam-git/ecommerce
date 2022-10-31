@@ -1,0 +1,84 @@
+header {
+  background-color: #131921;
+  width: 100%;
+  min-height: 10vh;
+}
+
+header nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .left img {
+  width: 150px;
+  height: 60px;
+  margin: 5px;
+}
+
+.nav_search input {
+  height: 38px;
+  width: 400px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 70px;
+}
+.nav_search_btn {
+  background-color: #febd69;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right .nav_btn {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.right .cart_btn {
+  width: 150px;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#cart {
+  margin: 0 10px;
+}
+
+.right .nav_btn:hover {
+  border: solid 1px white;
+}
+
+.right .cart_btn:hover {
+  border: solid 1px white;
+}
+.right .user_avatar {
+  margin: 0 50px;
+}

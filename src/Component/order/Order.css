@@ -1,0 +1,23 @@
+.product-order-img {
+  padding: 10px, 0;
+}
+.product-order-img {
+  height: 80px;
+  width: 80px;
+}
+.product-order-img img {
+  object-fit: center;
+}
+
+.deleteBtn {
+  background-color: #b32624;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  display: flex;
+  padding: 10px 20px;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+}

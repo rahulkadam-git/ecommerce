@@ -1,0 +1,26 @@
+.badge-class {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+
+.badge-class:after {
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  content: " ";
+  right: -15px;
+  top: 0;
+  transform: skew(-45deg);
+}
+
+.badge-class span {
+  font-weight: 500;
+  font-size: 15px;
+}
